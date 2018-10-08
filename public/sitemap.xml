@@ -108,7 +108,7 @@
     
     <url>
     
-      <loc>/publication/person-re-identification/</loc>
+      <loc>/tmp/person-re-identification/</loc>
       <lastmod>2015-09-01T00:00:00-04:00</lastmod>
     </url>
     
@@ -124,8 +124,16 @@
     
     <url>
     
-      <loc>/publication/clothing-search/</loc>
+      <loc>/tmp/clothing-search/</loc>
       <lastmod>2013-07-01T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/chen_et_al_chemmedchem_2011/</loc>
+      <lastmod>2011-08-01T00:00:00-04:00</lastmod>
     </url>
     
   

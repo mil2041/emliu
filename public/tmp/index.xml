@@ -122,5 +122,23 @@ I am a teaching instructor for the following courses at University X:
       <description></description>
     </item>
     
+    <item>
+      <title>A Person Re-Identification System For Mobile Devices</title>
+      <link>/tmp/person-re-identification/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0400</pubDate>
+      
+      <guid>/tmp/person-re-identification/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+    <item>
+      <title>Mobile visual clothing search</title>
+      <link>/tmp/clothing-search/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
+      
+      <guid>/tmp/clothing-search/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
   </channel>
 </rss>

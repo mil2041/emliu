@@ -20,7 +20,7 @@ weight = 5
 [[education.courses]]
   course = "PhD in Physiology, Biophysics and Systems Biology (PBSB)"
   institution = "Weill Cornell Medicine"
-  year = "2019(Expected)"
+  year = ""
 
 [[education.courses]]
   course = "Master in Biomedical Informatics"

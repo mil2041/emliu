@@ -10,7 +10,7 @@ baseurl = "https://mil2041.github.io/"
 #baseurl = "/"
 
 # Title of your site
-title = "Academic"
+title = "Eric Minwei Liu"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -279,6 +279,13 @@ enableGitInfo = false
   url = "#about"
   weight = 1
 
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+[[menu.main]]
+    name = "CV"
+    url = "files/cv.pdf"
+    weight = 2
+    
 [[menu.main]]
   name = "Publications"
   url = "#publications_selected"
@@ -292,7 +299,7 @@ enableGitInfo = false
 [[menu.main]]
   name = "Projects"
   url = "#projects"
-  weight = 4
+  weight = 3
 
 #[[menu.main]]
   #name = "Tutorials"
@@ -301,17 +308,12 @@ enableGitInfo = false
 
 
 
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
- [[menu.main]]
-    name = "CV"
-    url = "files/cv.pdf"
-    weight = 6
+
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 7
+  weight = 4
 
 
 # Search.

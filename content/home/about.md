@@ -5,7 +5,7 @@ active = true
 date = 2016-04-20T00:00:00
 
 # Order that this section will appear in.
-weight = 5
+weight = 2
 
 # List your academic interests.
 [interests]
@@ -19,12 +19,12 @@ weight = 5
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "PhD in Physiology, Biophysics and Systems Biology (PBSB)"
-  institution = "Weill Cornell Medicine"
+  institution = "Weill Cornell Medicine (Cornell University)"
   year = ""
 
 [[education.courses]]
   course = "Master in Biomedical Informatics"
-  institution = "Columbia"
+  institution = "Columbia University"
   year = 2012
 
 [[education.courses]]

@@ -1,3 +1,2 @@
 # emliu
-Academic website of Eric Minwei Liu
-https://ericmliu.com/
+[ Academic website of Eric Minwei Liu ] https://ericmliu.com/

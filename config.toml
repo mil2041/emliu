@@ -57,7 +57,7 @@ enableGitInfo = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Weill Cornell Medicine", url = ""https://weill.cornell.edu/ } ]
+  organizations = [ { name = "Weill Cornell Medicine", url = "https://weill.cornell.edu/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "eml_portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -281,10 +281,10 @@ enableGitInfo = false
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-[[menu.main]]
-    name = "Resume"
-    url = "files/Resume_PhD_EML.pdf"
-    weight = 2
+#[[menu.main]]
+#    name = "Resume"
+#    url = "files/Resume_PhD_EML.pdf"
+#    weight = 2
     
 [[menu.main]]
   name = "Projects"

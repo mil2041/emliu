@@ -12,6 +12,7 @@ weight = 2
   interests = [
     
     "Computational Cancer Genomics",
+    "Data Science",
     "Machine Learning",
     "Artificial Intelligence",
   ]
@@ -20,23 +21,26 @@ weight = 2
 [[education.courses]]
   course = "PhD in Physiology, Biophysics and Systems Biology (PBSB)"
   institution = "Weill Cornell Medicine (Cornell University)"
-  year = ""
+  year = 2019
 
 [[education.courses]]
-  course = "Master in Biomedical Informatics"
+  course = "MA in Biomedical Informatics"
   institution = "Columbia University"
   year = 2012
 
 [[education.courses]]
-  course = "Double BS in Chemistry, Information Management"
+  course = "BS in Chemistry, Information Management"
   institution = "National Taiwan University"
-  year = 2005
+  year = ""
  
 +++
 
 # About
 
-I am a PhD student at Khurana lab led by Prof. Ekta Khurana. 
+I am currently a postdoctoral associate at Weill Cornell Medicine.
+I graduated from Weill Cornell Medicine with a PhD in Physiology, Biophysics and Systems Biology in 2019, advised
+from Professor Ekta Khurana. My research focuses on applying statistcal analysis, machine learning methods to 
+large-scale multi-omics data in human cancers.   
 
 
 

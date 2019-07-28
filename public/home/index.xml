@@ -6,7 +6,7 @@
     <description>Recent content in Homes on Eric Minwei Liu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 - 2019</copyright>
+    <copyright>&amp;copy; EML 2018 - 2019</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
@@ -24,12 +24,45 @@ Email: mil2041 [at] med.cornell.edu
     </item>
     
     <item>
-      <title>Publications</title>
+      <title>Selected projects</title>
+      <link>/home/projects/</link>
+      <pubDate>Sat, 13 Oct 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/home/projects/</guid>
+      <description>Non-coding cancer driver web app  Design a relational database system that stores the non-coding cancer evidences curated from literature.
+ Develop a front-end web application that provides summary statistics and novel data representation of non-coding cancer evidences across 28 cancer types.  Cancer driver detection  Develop a new statistical inference method to discover coding and non-coding cancer drivers from 1962 whole -genome sequencing tumor samples. The package uses parallel programming to reduce the run time by 80%.</description>
+    </item>
+    
+    <item>
+      <title>Selected publications</title>
       <link>/home/publications/</link>
       <pubDate>Sat, 13 Oct 2018 00:00:00 -0400</pubDate>
       
       <guid>/home/publications/</guid>
-      <description>Hui Shen, Juliann Shih, Daniel P Hollern, Linghua Wang, Reanne Bowlby, Satish K Tickoo, Vésteinn Thorsson, Andrew J Mungall, Yulia Newton, Apurva M Hegde, Joshua Armenia, Francisco Sánchez-Vega, John Pluta, Louise C Pyle, Rohit Mehra, Victor E Reuter, Guilherme Godoy, Jeffrey Jones, Carl S Shelley, Darren R Feldman, Daniel O Vidal, Davor Lessel, Tomislav Kulis, Flavio M Cárcano, Kristen M Leraas, Tara M Lichtenberg, Denise Brooks, Andrew D Cherniack, Juok Cho, David I Heiman, Katayoon Kasaian, Minwei Liu, Michael S Noble, Liu Xi, Hailei Zhang, Wanding Zhou, Jean C ZenKlusen, Carolyn M Hutter, Ina Felau, Jiashan Zhang, Nikolaus Schultz, Gad Getz, Matthew Meyerson, Joshua M Stuart, Rehan Akbani, David A Wheeler, Peter W Laird, Katherine L Nathanson, Victoria K Cortessis, Katherine A Hoadley, Cancer Genome Atlas Research Network “Integrated Molecular Characterization of Testicular Germ Cell Tumors”, Cell Reports, 23,3392-3406 (2018)</description>
+      <description>Matthew H Bailey, Collin Tokheim, Eduard Porta-Pardo, Sohini Sengupta, Denis Bertrand, Amila Weerasinghe, Antonio Colaprico, Michael C Wendl, Jaegil Kim, Brendan Reardon, Patrick Kwok-Shing Ng, Kang Jin Jeong, Song Cao, Zixing Wang, Jianjiong Gao, Qingsong Gao, Fang Wang, Eric Minwei Liu, Loris Mularoni, Carlota Rubio-Perez, Niranjan Nagarajan, Isidro Cortés-Ciriano, Daniel Cui Zhou, Wen-Wei Liang, Julian M Hess, Venkata D Yellapantula, David Tamborero, Abel Gonzalez-Perez, Chayaporn Suphavilai, Jia Yu Ko, Ekta Khurana, Peter J Park, Eliezer M Van Allen, Han Liang, Michael S Lawrence, Adam Godzik, Nuria Lopez-Bigas, Josh Stuart, David Wheeler, Gad Getz, Ken Chen, Alexander J Lazar, Gordon B Mills, Rachel Karchin, Li Ding, MC3 Working Group, Cancer Genome Atlas Research Network “Comprehensive Characterization of Cancer Driver Genes and Mutations”, Cell 173, 371–385.</description>
+    </item>
+    
+    <item>
+      <title>Softwares</title>
+      <link>/home/softwares/</link>
+      <pubDate>Sat, 13 Oct 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/home/softwares/</guid>
+      <description> CNCDatabase:  A full-stack database systems to organzie and query non-coding cancer driver evidences from literature.
+ CNCDriver: Combined mutation recurrence and functional impact to identify coding and non-coding cancer drivers.
+ netboxr:  an R package for integrative pathway analysis.
+  </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/home/contact/</link>
+      <pubDate>Sat, 13 Oct 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description> Email: mil2041 [at] med.cornell.edu
+ 413 E 69th Street Belfer Research Building New York, NY 10021
+  </description>
     </item>
     
   </channel>

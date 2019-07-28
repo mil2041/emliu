@@ -14,7 +14,7 @@ title = "Eric Minwei Liu"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018 - 2019"
+copyright = "&copy; EML 2018 - 2019"
 
 theme = "hugo-academic"
 enableEmoji = true

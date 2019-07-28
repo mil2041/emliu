@@ -15,14 +15,15 @@ weight = 3
 
 +++
 
-#### Non-coding cancer driver web app
+### Non-coding cancer driver web app
 
 * Design a relational database system that stores the non-coding cancer evidences curated from literature.     
 * Develop a front-end web application that provides summary statistics and novel data representation of non-coding cancer evidences across 28 cancer types. 
 
 ---
 
-#### Cancer driver detection
+### Cancer driver detection
+
 
 * Develop a new statistical inference method to discover coding and non-coding cancer drivers from 1962 whole -genome sequencing tumor samples. The package uses parallel programming to reduce the run time by 80%.      
 * Integrate multi-omics datasets from WGS, WXS, 1000 genome, ENCODE, Roadmap Epigenomics, ChIP-seq, Hi-C and ChIA-PET. 
@@ -30,7 +31,7 @@ weight = 3
 
 ---
 
-#### Integrated pathway analysis
+### Integrated pathway analysis
 
 * Implement “NetBox” algorithm and prepare technical documentations to facilitate pathway analysis. 
 * Contribute the integrated pathway analysis in three TCGA publications including sarcoma, mesothelioma, and testicular germ cell tumors under the supervision of Professor Chris Sander.

@@ -28,6 +28,7 @@ weight = 3
 * Develop a new statistical inference method to discover coding and non-coding cancer drivers from 1962 whole -genome sequencing tumor samples. The package uses parallel programming to reduce the run time by 80%.      
 * Integrate multi-omics datasets from WGS, WXS, 1000 genome, ENCODE, Roadmap Epigenomics, ChIP-seq, Hi-C and ChIA-PET. 
 
+**Paper:** [Cell Systems. May 22, 2019](https://www.ncbi.nlm.nih.gov/pubmed/31078526)
 
 ---
 

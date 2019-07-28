@@ -38,10 +38,8 @@ weight = 2
 # About
 
 I am currently a postdoctoral associate at Weill Cornell Medicine.
-I graduated from Weill Cornell Medicine with a PhD in Physiology, Biophysics and Systems Biology in 2019, advised
-from Professor Ekta Khurana. My research focuses on applying statistcal analysis, machine learning methods to 
-large-scale multi-omics data in human cancers.   
+I graduated from Weill Cornell Medicine with a PhD in Physiology, Biophysics and Systems Biology in 2019 under the supervision of [Dr. Ekta Khurana](https://khuranalab.med.cornell.edu/). My research focuses on applying statistcal analysis and machine learning to large-scale multi-omics data in human cancers.   
 
+**Email:** mil2041 [at] med.cornell.edu
 
-
-
+[[Linkedin]](https://www.linkedin.com/in/ericminweiliu/) [[Google Scholar]](https://scholar.google.com/citations?user=15RkgOUAAAAJ&hl=en&oi=ao) [[Github]](https://github.com/mil2041)

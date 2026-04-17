@@ -24,6 +24,19 @@
         return text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
     }
 
+    // Split description into bullet points by splitting on ". " boundaries
+    function descriptionToList(desc) {
+        if (!desc) return '';
+        var sentences = desc.split(/\.\s+/).filter(function (s) { return s.trim().length > 0; });
+        if (sentences.length <= 1) return '<p>' + desc + '</p>';
+        return '<ul class="exp-desc-list">' +
+            sentences.map(function (s) {
+                var text = s.replace(/\.+$/, '').trim();
+                return '<li>' + text + '.</li>';
+            }).join('') +
+            '</ul>';
+    }
+
     // ===== RENDER FUNCTIONS =====
 
     function renderAbout(md) {
@@ -41,7 +54,7 @@
             var badge = item.current === 'true'
                 ? '<span class="exp-badge exp-badge--current">Current</span>' : '';
 
-            return '<div class="exp-card">' +
+            return '<div class="exp-card fade-in">' +
                 '<div class="exp-left">' +
                     badge +
                     '<h3>' + (item.title || '') + '</h3>' +
@@ -50,10 +63,12 @@
                 '</div>' +
                 '<div class="exp-right">' +
                     '<p class="exp-meta">' + (item.department || '') + ' &middot; Advisor: ' + (item.advisor || '') + '</p>' +
-                    '<p>' + (item.description || '') + '</p>' +
+                    descriptionToList(item.description) +
                 '</div>' +
                 '</div>';
         }).join('');
+
+        observeFadeIns();
     }
 
     function renderPublications(text) {
@@ -76,7 +91,7 @@
             var vol = item.volume ? ', ' + item.volume : '';
             var authors = boldify(item.authors || '');
 
-            return '<div class="pub' + hl + '">' +
+            return '<div class="pub' + hl + ' fade-in">' +
                 '<span class="pub-num">' + num + '</span>' +
                 '<div class="pub-body">' +
                     '<p>' + authors + ' ' +
@@ -88,6 +103,8 @@
                 '</div>' +
                 '</div>';
         }).join('');
+
+        observeFadeIns();
     }
 
     // ===== LOAD CONTENT =====
@@ -102,6 +119,34 @@
     loadContent('content/about_me.md', renderAbout);
     loadContent('content/work_experience.md', renderExperience);
     loadContent('content/all_publications.md', renderPublications);
+
+    // ===== UI: Dark mode toggle =====
+
+    var themeBtn = document.querySelector('.theme-toggle');
+    var themeIcon = themeBtn ? themeBtn.querySelector('i') : null;
+
+    function setDarkMode(on) {
+        document.body.classList.toggle('dark', on);
+        if (themeIcon) {
+            themeIcon.className = on ? 'fas fa-sun' : 'fas fa-moon';
+        }
+        try { localStorage.setItem('theme', on ? 'dark' : 'light'); } catch (e) {}
+    }
+
+    // Restore saved preference or respect system preference
+    var saved = null;
+    try { saved = localStorage.getItem('theme'); } catch (e) {}
+    if (saved === 'dark') {
+        setDarkMode(true);
+    } else if (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        setDarkMode(true);
+    }
+
+    if (themeBtn) {
+        themeBtn.addEventListener('click', function () {
+            setDarkMode(!document.body.classList.contains('dark'));
+        });
+    }
 
     // ===== UI: Mobile menu =====
 
@@ -126,5 +171,28 @@
             if (links) links.classList.remove('active');
         });
     });
+
+    // ===== UI: Scroll-triggered fade-in =====
+
+    function observeFadeIns() {
+        var els = document.querySelectorAll('.fade-in:not(.visible)');
+        if (!els.length || !('IntersectionObserver' in window)) {
+            els.forEach(function (el) { el.classList.add('visible'); });
+            return;
+        }
+
+        var observer = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        els.forEach(function (el) { observer.observe(el); });
+    }
+
+    observeFadeIns();
 
 })();
